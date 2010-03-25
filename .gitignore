@@ -2,3 +2,6 @@ results
 tmp
 logs
 server.pid
+*iws
+*ipr
+*iml

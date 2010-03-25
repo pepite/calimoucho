@@ -1,0 +1,13 @@
+#{if passed}
+
+<h2>Good news, It is all good for ${project}!</h2>
+
+#{/}
+
+#{else}
+
+<h2>Bad news, ${project} is broken:</h2>
+<pre>
+        ${result}
+</pre>
+#{/}

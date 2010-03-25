@@ -1,0 +1,13 @@
+#{if passed}
+
+Good news, It is all good for ${project}!
+
+#{/}
+
+#{else}
+
+Bad news, ${project} is broken:
+
+${result}
+
+#{/}
